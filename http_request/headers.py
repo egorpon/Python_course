@@ -2,7 +2,7 @@ import requests
 
 url = "https://icanhazdadjoke.com/"
 
-response = requests.get(url,headers={"Accept": "application/json"})
+response = requests.get(url, headers={"Accept": "application/json"})
 
 data = response.json
 

@@ -1,5 +1,6 @@
 def offer():
-  return "hey do you like apples?"
+    return "hey do you like apples?"
+
 
 def bake():
-  return "MMM, pie... "
+    return "MMM, pie... "

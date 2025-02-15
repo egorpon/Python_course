@@ -12,24 +12,25 @@
 
 
 def yes_or_no():
-   answer = "yes"
-   while True:
-      yield answer
-      if answer == "yes":
-         answer = "no"
-      else:
-         answer = "yes"
+    answer = "yes"
+    while True:
+        yield answer
+        if answer == "yes":
+            answer = "no"
+        else:
+            answer = "yes"
+
 
 gen = yes_or_no()
-print(next(gen)) # 'yes'
-print(next(gen)) # 'no'
-print(next(gen)) # 'yes'
-print(next(gen)) # 'no'
-print(next(gen)) # 'no'
-print(next(gen)) # 'no'
-print(next(gen)) # 'no'
-print(next(gen)) # 'no'
-print(next(gen)) # 'no'
-print(next(gen)) # 'no'
-print(next(gen)) # 'no'
-print(next(gen)) # 'no'
+print(next(gen))  # 'yes'
+print(next(gen))  # 'no'
+print(next(gen))  # 'yes'
+print(next(gen))  # 'no'
+print(next(gen))  # 'no'
+print(next(gen))  # 'no'
+print(next(gen))  # 'no'
+print(next(gen))  # 'no'
+print(next(gen))  # 'no'
+print(next(gen))  # 'no'
+print(next(gen))  # 'no'
+print(next(gen))  # 'no'
