@@ -5,8 +5,7 @@ def replace_the_word(file,word = "fruit"):
         for w in text.split(" "):
             dct[w] = text.count(w)
         
-        f.seek(0)
-        new_text = f.read()
+        new_text = text
         for w in dct:
             if dct[w]>1:
                 new_text = new_text.replace(w,word)
